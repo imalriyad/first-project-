@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: roboto;
 }
 
 /* hedaer part */
@@ -22,7 +23,6 @@
     color: aliceblue;
     margin-left: 30px;
     font-size: 18px;
-    font-family: roboto;
     font-weight: 700px;
     list-style: none;
    
@@ -42,12 +42,10 @@
 .text-div > h1{
     color: aliceblue;
     font-size: 50px;
-    font-family: roboto; 
     margin: 15px 0px;
 }
 .text-div > p{
     color: aliceblue;
-    font-family: roboto; 
     font-size: 18px;
     margin: 15px 0px;
 }
@@ -55,7 +53,6 @@
 .btn-a{
     color: aliceblue;
     font-size: 14px;
-    font-family: roboto;
     text-decoration: none;
   
 }
@@ -77,16 +74,34 @@
     padding: 13px 11px;
     
 }
-.about-div{
-    
 
-}
 /* about us section */
+
 .about-tittle{
-    /* text-align: center;
+    text-align: center;
     font-size: 53px;
-    margin-top: 25px; */
+    margin-top: 30px;
 }
+.about-div{
+  padding: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  
+}
+.headline{
+    font-size: 30px;
+}
+.text{
+    margin: 20px 0px;
+  
+    
+}
+.text-div{
+    margin-top: 30px;
+}
+
 .about-img{
     width: 300px;
+  
 }
