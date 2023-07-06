@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* hedaer part */
+.hedar-menu {
+   background-color: #424141;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   padding: 18px;
+}
+.logo{
+    width: 110px;
+    padding: 5px;
+}
+.menu-item ,.menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 700px;
+    list-style: none;
+   
+}
+.menu-item,li>a:hover{
+    color: rgb(2, 240, 160);
+}
+
+/* banner-part */
+.main-bannerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+}
+.text-div > h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: roboto; 
+    margin: 15px 0px;
+}
+.text-div > p{
+    color: aliceblue;
+    font-family: roboto; 
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.btn-a{
+    color: aliceblue;
+    font-size: 14px;
+    font-family: roboto;
+    text-decoration: none;
+  
+}
+.btn{
+    background: red;
+    padding: 13px 12px;
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.banner-img{
+    width: 330px;
+}
+.btn:hover{
+    color: rgb(215, 252, 6);
+    background: blueviolet;
+    font-size: 14px;
+    padding: 13px 11px;
+    
+}
+.about-div{
+    
+
+}
+/* about us section */
+.about-tittle{
+    /* text-align: center;
+    font-size: 53px;
+    margin-top: 25px; */
+}
+.about-img{
+    width: 300px;
+}
